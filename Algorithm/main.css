@@ -1,3 +1,43 @@
+.header-container {
+    background-color: rgb(188, 11, 11);
+    padding: 20px;
+    text-align: center;
+}
+
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 400px;
+    margin-top: 10px;
+}
+
+.controls-container {
+    margin-left: 20px; /* Thêm khoảng cách giữa canvas và nút */
+}
+
+.footer {
+    display: flex; /* Sử dụng flexbox để căn chỉnh logo và văn bản */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    text-align: center; /* Căn giữa nội dung */
+    margin-top: 20px;  /* Thêm khoảng cách phía trên nếu cần */
+    font-size: 24px;   /* Tăng kích cỡ chữ */
+    padding: 15px;     /* Thêm khoảng cách bên trong */
+    background-color: #f9f9f9; /* Màu nền cho footer */
+    color: #000;       /* Màu chữ */
+    font-family: Verdana; /* Phông chữ */
+}
+
+.footer-logo {
+    width: 50px; /* Điều chỉnh kích thước logo theo ý thích */
+    height: auto; /* Giữ tỉ lệ gốc cho logo */
+    margin-right: 15px; /* Khoảng cách giữa logo và văn bản */
+}
+
+
+
 body
 {
     background-color: #FCFCFC;
@@ -23,7 +63,7 @@ hr
 
 .container
 {
-    width:350px;
+    width:1000px;
     margin: 0 auto;
 }
 
@@ -31,7 +71,7 @@ hr
 {
     text-align: center;
     font-family: Verdana;
-    color:#0000FF;
+    color:#f3f3f7;
 }
 
 .game-container
@@ -86,7 +126,7 @@ hr
     background-color: #FFFFFF;
     box-shadow: 0 0 10px 2px #EEEEEE;
     text-align: center;
-    color: #FF0000;
+    color: #f01818;
     font-size:25px;
     border:1px solid #CCCCCC;
     font-weight: bold;
@@ -154,12 +194,6 @@ hr
     margin-top: 10px;
 }
 
-.footer
-{
-    font-family: Verdana;
-    color:#000000;
-    font-size: 12px;
-}
 
 .fb-like {
     vertical-align: top;
